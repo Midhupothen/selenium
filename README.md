@@ -397,7 +397,7 @@ bazel test --run_under="xvfb-run -a" //java/... --test_tag_filters=chrome
 
 ### Selenium Build Docker Image
 
-If you're finding it hard to set up a development environment using bazel
+If you're finding it  to set up a development environment using bazel
 and you have access to Docker, then you can build a Docker image suitable
 for building and testing Selenium in from the Dockerfile in the 
 [dev image](scripts/dev-image/Dockerfile) directory.
